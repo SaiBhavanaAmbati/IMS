@@ -1,0 +1,30 @@
+body
+{
+background-color:silver;
+}
+.person
+{
+position: absolute;
+left : 250px;
+	
+}
+.welc
+{
+position: absolute;
+left : 230px;
+top: 40px;	
+}
+img
+{
+position: absolute;
+top: 100px;
+left : 50px;	
+}
+div
+{
+	width : 800px;
+	height: 500px;
+	border-radius:25px;
+	background-color:white;
+}
+

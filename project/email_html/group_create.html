@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.person
+{
+position: absolute;
+left : 200px;
+	
+}
+.add_group
+{
+position: absolute;
+left : 30px;
+top: 40px;	
+}
+.name_group
+{
+position: absolute;
+left : 50px;
+top: 100px;	
+}
+
+.background_style
+{
+	width : 800px;
+	height: 400px;
+	background-image : url('/home/bhavana/Documents/sem 7/SE/project/innovation-960x400.jpg');
+}
+.content
+{
+	width:600px;
+	height:250px;
+	border-radius:25px;
+	background-color:white;
+	position: absolute;
+	left : 80px;
+	top: 60px;
+	opacity: 0.8;	
+}
+
+</style>
+</head>
+
+<body>
+<div class="background_style">
+</div>
+
+<div class="content">
+<h1 class = "person">Hi! {{name}}</h1>
+<h1 class="add_group">You have been added to a new group!</h1>
+<h1 class="name_group">Group Name:{{group_name}}</h1>
+</div>
+
+</body>
+</html>

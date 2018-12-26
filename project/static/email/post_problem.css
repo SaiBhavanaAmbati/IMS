@@ -1,0 +1,37 @@
+.person
+{
+position: absolute;
+left : 200px;
+	
+}
+.add_group
+{
+position: absolute;
+left : 10px;
+top: 40px;	
+}
+.name_group
+{
+position: absolute;
+left : 50px;
+top: 100px;	
+}
+
+.background_style
+{
+	width : 1300px;
+	height: 400px;
+	background-image : url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ3qon5PIt8-N3ssng2pat1zdyzm4PFYm9prsLMZINAn76qCiD');
+}
+.content
+{
+	width:600px;
+	height:250px;
+	border-radius:25px;
+	background-color:white;
+	position: absolute;
+	left : 400px;
+	top: 60px;
+	opacity: 0.8;	
+}
+
